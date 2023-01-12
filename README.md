@@ -16,10 +16,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository to your local machine
 
-git clone https://github.com/[username]/MealPlanet.git
+git clone https://github.com/jeremykissack/MealPlanet.git
 
 
-2. Create a new virtual environment for the project and activate it
+2. Optional: Create a new virtual environment for the project and activate it
 
 python -m venv ~/.virtualenvs/mealplanet_env
 source ~/.virtualenvs/mealplanet_env/bin/activate
@@ -62,26 +62,14 @@ python manage.py createsuperuser
 
 To set up the front-end part of the project, please follow the instructions in the `frontend` directory.
 
-## Deployment
-
-You can deploy the project on a server, for example using [Django Heroku](https://devcenter.heroku.com/articles/django-app-configuration) or [Django on AWS](https://aws.amazon.com/getting-started/hands-on/deploy-python-application/)
-
 ## Built With
 
 - [Django](https://www.djangoproject.com/)
-- [React-Native](https://reactnative.dev/) (or similar)
+- [React-Native](https://reactnative.dev/) (To-do)
 - [django-rest-framework](https://www.django-rest-framework.org/)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
-
-- Inspiration
-- Hat tip to anyone whose code was used
-
-Please don't forget to update the repository link and the instructions as needed and make sure it's appropriate for your project.
-As you keep working on the project make sure to keep the readme updated to match the latest features and steps.
-Let me know if there's anything else I can help you with.
 # mealPlanit
