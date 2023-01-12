@@ -16,23 +16,31 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository to your local machine
 
-git clone https://github.com/jeremykissack/MealPlanit.git
+```shell
+$ git clone https://github.com/jeremykissack/MealPlanit.git
+```
 
 
 2. Optional: Create a new virtual environment for the project and activate it
 
-python -m venv ~/.virtualenvs/mp_env
-source ~/.virtualenvs/mp_env/bin/activate
+```shell
+$ python -m venv ~/.virtualenvs/mp_env
+$ source ~/.virtualenvs/mp_env/bin/activate
+```
 
 
 3. Install the required dependencies
 
-pip install -r requirements.txt
+```shell
+$ pip install -r requirements.txt
+```
 
 
 4. Run the development server
 
-python manage.py runserver
+```shell
+$ python manage.py runserver
+```
 
 
 5. The project will be running on `http://127.0.0.1:8000/` in your browser
@@ -41,21 +49,27 @@ python manage.py runserver
 
 You can run the test by using the command
 
-python manage.py test
+```shell
+$ python manage.py test
+```
 
 
 ### Creating the database
 
 In case you want to create the database with initial data, you can use the command
 
-python manage.py migrate
+```shell
+$ python manage.py migrate
+```
 
 
 ### Creating an admin user
 
 You can create an admin user by running the command
 
-python manage.py createsuperuser
+```shell
+$ python manage.py createsuperuser
+```
 
 
 ### Front-end
