@@ -1,4 +1,4 @@
-# MealPlanet
+# MealPlanit
 
 A meal prep and recipe web app, built with Django and React-Native (or similar).
 
@@ -16,13 +16,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository to your local machine
 
-git clone https://github.com/jeremykissack/MealPlanet.git
+git clone https://github.com/jeremykissack/MealPlanit.git
 
 
 2. Optional: Create a new virtual environment for the project and activate it
 
-python -m venv ~/.virtualenvs/mealplanet_env
-source ~/.virtualenvs/mealplanet_env/bin/activate
+python -m venv ~/.virtualenvs/mp_env
+source ~/.virtualenvs/mp_env/bin/activate
 
 
 3. Install the required dependencies
